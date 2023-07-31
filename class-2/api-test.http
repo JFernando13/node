@@ -1,0 +1,23 @@
+### GET with Express
+GET http://localhost:3000/pokemon/ditto
+
+### GET with HTTP
+GET http://localhost:3001/pokemon/ditto
+
+### POST with Express
+POST http://localhost:3000/pokemon
+Content-Type: application/json
+
+{
+  "name": "Laurax",
+  "type": "extreme-especial"
+}
+
+### POST with HTTP
+POST http://localhost:3001/pokemon
+Content-Type: application/json
+
+{
+  "name": "Laurax",
+  "type": "extreme-especial"
+}
